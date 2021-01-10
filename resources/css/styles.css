@@ -1,0 +1,102 @@
+/* import partials */
+/*
+======================================== */
+/* 1. Global Styles
+======================================== */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #283646;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* body copy font 
+ 
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+ */
+h1 {
+  font-size: 3rem;
+  padding: 5px;
+  color: #E4EFFB;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+/* link styling */
+a {
+  text-decoration: none;
+  padding: 5px;
+  color: #E4EFFB;
+}
+
+a:link {
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:visited {
+  color: #86AAD3;
+  padding: 5px;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: #303234;
+  padding: 5px;
+}
+
+a:active {
+  color: #0F171F;
+  background-color: #819FC1;
+}
+
+/* structure */
+.parentContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  border: 1 solid;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #303234;
+  padding: 10px;
+}
+/*# sourceMappingURL=styles.css.map */

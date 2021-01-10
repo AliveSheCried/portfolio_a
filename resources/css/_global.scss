@@ -1,0 +1,38 @@
+/*
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+* {
+    box-sizing: border-box;
+  }  
+
+ body {
+    margin: 0;
+    padding: 0;
+    background-color: #283646;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;    
+ } 
+
+ /* body copy font 
+ 
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+ */
+
+  
+ h1 {
+     font-size: 3rem;
+     padding: 5px;
+     color: #E4EFFB;
+ }
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 20px;
+}
